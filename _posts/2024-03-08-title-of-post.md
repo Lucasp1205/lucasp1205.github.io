@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is the title of the First post
+title: Blog do Padre - Sacramento Kings
 postHero: /images/shark.jpg
 author: Lucas Pereira
 authorTwitter: https://twitter.com/mhartl
@@ -14,7 +14,7 @@ particular to interest me on shore, I thought I would sail about a little
 and see the watery part of the world. It is a way I have of driving off
 the spleen and regulating the circulation.
 
-<img class="pull-left" src="https://placekitten.com/g/400/200"
+<img class="pull-left" src="https://placedog.net/500/270"
      alt="kitten">
 
 Whenever I find myself growing grim about the mouth; whenever it is a damp,

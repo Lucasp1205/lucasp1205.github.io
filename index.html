@@ -54,6 +54,14 @@ layout: default
   </div>
 
   <div class="home-section">
+    <h4>Most recent post</h4>
+    {% for post in site.posts limit:1 %}
+      {% include post-excerpt.html %}
+    {% endfor %}
+  </div>
+
+
+  <div class="home-section">
 
     <h2>THE FOUNDERS</h2>
     <p>
@@ -65,7 +73,7 @@ layout: default
 
     <div class="bio-wrapper">
       <div class="bio-box">
-        <img src="http://placekitten.com/400/400">
+        <img src="https://placedog.net/500/280">
         <h3>Michael Hartl</h3>
         <a href="https://twitter.com/mhartl" class="social-link">Tw</a>
         <div class="bio-copy">
@@ -85,7 +93,7 @@ layout: default
         </div>
       </div>
       <div class="bio-box">
-        <img src="http://placekitten.com/400/400">
+        <img src="https://placedog.net/500/280">
         <h3>Lee Donahoe</h3>
         <a href="https://twitter.com/leedonahoe" class="social-link">Tw</a>
         <div class="bio-copy">
@@ -98,7 +106,7 @@ layout: default
         </div>
       </div>
       <div class="bio-box">
-        <img src="http://placekitten.com/400/400">
+        <img src="https://placedog.net/500/280">
         <h3>Nick Merwin</h3>
         <a href="https://twitter.com/nickmerwin" class="social-link">Tw</a>
         <div class="bio-copy">
@@ -111,7 +119,7 @@ layout: default
         </div>
       </div>
       <div class="bio-box">
-        <img src="http://placekitten.com/400/400">
+        <img src="https://placedog.net/500/280">
         <h3>??</h3>
         <p>
           The Future
