@@ -644,6 +644,7 @@ a.social-link {
   }
   .header-nav li ~ li {
     border: 0;
+    padding: 0;
   }
   .header-nav li:last-child {
     margin-bottom: 1em;
