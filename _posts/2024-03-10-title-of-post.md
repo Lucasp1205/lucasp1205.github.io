@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is the title of the Third post
+title: Thayna Princesa 
 postHero: /images/shark.jpg
 author: Thayna Pereira
 authorTwitter: https://twitter.com/mhartl
