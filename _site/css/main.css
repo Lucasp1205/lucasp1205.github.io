@@ -54,7 +54,7 @@ a img {
  body {
     display: flex;
     flex-direction: column;
-    font-family: helvetica, arial, sans;
+    font-family: 'Open Sans', helvetica, arial, sans;
     min-height: 100vh;
  }
  .content-container {
@@ -62,6 +62,10 @@ a img {
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
+ }
+ h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', helvetica, sans;
+  font-weight: 100;
  }
 h1 {
   font-size: 7vw;
@@ -382,14 +386,14 @@ a.social-link {
     color: white;
     display: inline-block;
     font-family: helvetica, arial, sans;
-    font-size: 1em;
+    font-size: 1.7em;
     font-weight: bold;
-    height: 2.5em;
+    height: 1.5em;
     line-height: 1;
-    padding-top: 0.85em;
+    padding-top: 0.25em;
     text-align: center;
     text-decoration: none;
-    width: 2.5em;
+    width: 1.5em;
 }
 .social-list{
     list-style: none;
@@ -458,6 +462,8 @@ a.social-link {
 }
 .bio-box h3 {
     color: white;
+    font-family: 'Caprasimo', helvetica, sans;
+    font-weight: normal;
     margin: -40px 0 1em;
     text-align: center;
     text-transform: uppercase;
@@ -661,18 +667,24 @@ a.social-link {
   .header-nav .drop-trigger {
     padding-right: 0;
   }
+  .show-mobile-menu:hover {
+    color: #ed6e2f;
+  }
   .mobile-menu-check:checked ~  .header-nav {
     max-height: 1000px
   }
   .mobile-menu-check:checked ~ .show-mobile-menu:after {
     background-color: black;
     color: #ed6e2f;
-    content: "CLOSE";
+    content: "X";
     left: 0;
     position: absolute;
     text-align: center;
     top: 1.5em;
     width: 100%;
+  }
+  .mobile-menu-check ~ .show-mobile-menu:hover:after {
+    color: white;
   }
 
   /* HOME STYLES */
