@@ -58,7 +58,7 @@ a img {
     min-height: 100vh;
  }
  .content-container {
-  display: flex;
+  /* display: flex; */
   flex: 1 1 auto;
   padding-top: 10vh;
   width: 100%;
